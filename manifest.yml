@@ -1,0 +1,10 @@
+---
+applications:
+- name: configurator
+  random-route: true
+  instances: 1
+  memory: 1024M
+  buildpack: java_buildpack
+  services:
+   - config
+  path: ./build/libs/configurator.jar
