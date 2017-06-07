@@ -3,7 +3,7 @@ applications:
 - name: configurator
   random-route: true
   instances: 1
-  memory: 1024M
+  memory: 512M
   buildpack: java_buildpack
   services:
    - config
